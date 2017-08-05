@@ -1,0 +1,2 @@
+# soundd
+Simple sound daemon
