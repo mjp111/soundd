@@ -1,2 +1,2 @@
 # soundd
-Simple sound daemon
+Simple sound daemon.
