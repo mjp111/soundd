@@ -10,10 +10,11 @@ and a test command line utility soundc.
 
 Idea is to register "sounds" with the daemon once, and then 
 play then multiple times. Care has taken that delay is very
-low when staring new sounds.
+low when starting new sounds.
 
 soundc usage :
   soundc register <alias> <filename>
+
   soundc play <alias>
 
 
@@ -25,5 +26,6 @@ libsoundd interface :
 
 
 --Mika Penttilä
+
 mika.penttila@gmail.com
 
