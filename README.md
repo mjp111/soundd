@@ -13,15 +13,17 @@ play then multiple times. Care has taken that delay is very
 low when starting new sounds.
 
 soundc usage :
-  soundc register <alias> <filename>
 
-  soundc play <alias>
+> soundc register <alias> <filename>
+
+> soundc play <alias>
 
 
 libsoundd interface :
 
-  int soundc_register(const char *alias, const char *filename);
-  int soundc_play(const char *alias);
+int soundc_register(const char *alias, const char *filename);
+
+int soundc_play(const char *alias);
 
 
 
